@@ -12,7 +12,7 @@ composer require codingnninja/prodo
 
 ```
 
-##How to use it?
+## How to use it?
 
 ```
 You only need to add  
@@ -21,7 +21,11 @@ You only need to add
 
 to a blade file that is used everywhere in your application such as the header.blade.php or app.blade.php (blade layout file).
 
-Then include
+Then paste 
+
+'is_debug_on' => true,
+
+bellow debug in config/app.php,in laravel, any time you set debug to true.
 
 
 ```
