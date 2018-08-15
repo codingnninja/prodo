@@ -1,0 +1,30 @@
+{
+    "name": "codingnninja/prodo",
+    "description": "Notifier for when debug is on in production",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ogundiran Ayobami",
+            "email": "ayobami_ogundiran@yahoo.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Codingnninja\\Prodo\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codingnninja\\Prodo\\ProdoServiceProvider"
+            ],
+            "aliases": {
+                "Prodo": "Codingnninja\\Prodo\\Facades\\Prodo"
+            }
+        }
+    }  
+}
