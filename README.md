@@ -8,7 +8,7 @@
 
 
 ```
-composer require codingnninja/prodo
+composer require "codingnninja/prodo @dev"
 
 ```
 
